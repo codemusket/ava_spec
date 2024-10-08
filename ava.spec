@@ -66,6 +66,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ListTasksResp'
+      x-pagination: false
 
   /CancelTask:
     post:
